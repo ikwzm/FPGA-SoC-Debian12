@@ -73,9 +73,9 @@ EOT
 ### Setup Network
 
 apt install -y ifupdown
-cat <<EOT > /etc/network/interfaces.d/eth0
-allow-hotplug eth0
-iface eth0 inet dhcp
+cat <<EOT > /etc/network/interfaces.d/end0
+allow-hotplug end0
+iface end0 inet dhcp
 EOT
 
 ### Setup /lib/firmware
@@ -99,7 +99,7 @@ apt install -y socat
 apt install -y ruby rake ruby-msgpack ruby-serialport
 apt install -y python3 python3-dev python3-setuptools python3-wheel python3-pip python3-numpy
 apt install -y flex bison pkg-config
-apt install -y dosfstools
+apt install -y file dosfstools
 
 ### Install Other applications
 

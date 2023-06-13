@@ -163,9 +163,9 @@ EOT
 
 ```console
 debian10-rootfs# apt install -y ifupdown
-debian10-rootfs# cat <<EOT > /etc/network/interfaces.d/eth0
-allow-hotplug eth0
-iface eth0 inet dhcp
+debian10-rootfs# cat <<EOT > /etc/network/interfaces.d/end0
+allow-hotplug end0
+iface end0 inet dhcp
 EOT
 ````
 
@@ -195,7 +195,7 @@ debian12-rootfs# apt install -y socat
 debian12-rootfs# apt install -y ruby rake ruby-msgpack ruby-serialport 
 debian12-rootfs# apt install -y python3 python3-dev python3-setuptools python3-wheel python3-pip python3-numpy
 debian12-rootfs# apt install -y flex bison pkg-config
-debian12-rootfs# apt install -y dosfstools
+debian12-rootfs# apt install -y file dosfstools
 ```
 
 ##### Install Other applications
