@@ -45,7 +45,7 @@ shell# mount ${DISKDEV}1                                       /mnt/usb1
 shell# mount ${DISKDEV}2                                       /mnt/usb2
 shell# cp target/zynq-pynqz1/boot/*                            /mnt/usb1
 shell# cp files/vmlinuz-6.1.33-armv7-fpga-1                    /mnt/usb1/vmlinuz-6.1.33-armv7-fpga
-shell# cat debian11-rootfs-vanilla.tgz.files/* | tar xfz - -C  /mnt/usb2
+shell# cat debian12-rootfs-vanilla.tgz.files/* | tar xfz - -C  /mnt/usb2
 shell# mkdir                                                   /mnt/usb2/home/fpga/debian
 shell# cp debian/*                                             /mnt/usb2/home/fpga/debian
 shell# umount                                                  /mnt/usb1
