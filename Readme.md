@@ -22,7 +22,7 @@ This Repository provides a Linux Boot Image(U-boot, Kernel, Debian12-Root-Fs) fo
   + Customized boot by uEnv.txt
   + Customized boot by boot.scr
   + Enable bootmenu
-* Linux Kernel Version v6.1.22
+* Linux Kernel Version v6.1.33
   + Available in both Xilinx-Zynq-7000 and Altera-SoC in a single image
   + Enable Device Tree Overlay
   + Enable FPGA Manager
@@ -40,5 +40,26 @@ This Repository provides a Linux Boot Image(U-boot, Kernel, Debian12-Root-Fs) fo
   + [dtbocfg    (Device Tree Blob Overlay Configuration File System)](https://github.com/ikwzm/dtbocfg)
   + [fclkcfg    (FPGA Clock Configuration Device Driver)](https://github.com/ikwzm/fclkcfg)
   + [udmabuf    (User space mappable DMA Buffer)](https://github.com/ikwzm/udmabuf)
-  + [zptty      (Pseudo TeleTYpewriter for FPGA Device)](https://github.com/ikwzm/PTTY_AXI4)
+
+Install
+------------------------------------------------------------------------------------
+
+* Install U-Boot and Linux to SD-Card
+  + [ZYBO](doc/install/zynq-zybo.md)
+  + [ZYBO-Z7](doc/install/zynq-zybo-z7.md)
+  + [PYNQ-Z1](doc/install/zynq-pynqz1.md)
+  + [DE0-Nano-SoC](doc/install/de0-nano-soc.md)
+  + [DE10-Nano](doc/install/de10-nano.md)
+* [Install Device Drivers and Services](doc/install/device-drivers.md)
+
+Build 
+------------------------------------------------------------------------------------
+
+* [Build U-boot for ZYBO](doc/build/u-boot-zynq-zybo.md)
+* [Build U-boot for ZYBO-Z7](doc/build/u-boot-zynq-zybo-z7.md)
+* [Build U-boot for PYNQ-Z1](doc/build/u-boot-zynq-pynqz1.md)
+* [Build U-boot for DE0-Nano-SoC](doc/build/u-boot-de0-nano-soc.md)
+* [Build U-boot for DE10-Nano](doc/build/u-boot-de10-nano.md)
+* [Build Linux Kernel](doc/build/linux-kernel-6.1.33.md)
+* [Build Debian12 RootFS](doc/build/debian12-rootfs.md)
 
