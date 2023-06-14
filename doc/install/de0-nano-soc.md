@@ -7,7 +7,7 @@
 ```console
 shell$ wget https://github.com/ikwzm/FPGA-SoC-Debian12/archive/refs/tags/v1.0.0.tar.gz
 shell$ tar xfz v1.0.0.tar.gz
-shell$ cd FPGA-SoC-Debian12-v1.0.0
+shell$ cd FPGA-SoC-Debian12-1.0.0
 ```
 
 #### File Description
