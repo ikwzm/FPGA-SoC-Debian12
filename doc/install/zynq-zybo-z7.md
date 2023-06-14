@@ -5,9 +5,9 @@
 **Note: Downloading the entire repository takes time, so download the source code from https://github.com/ikwzm/FPGA-SoC-Debian12/releases.**
 
 ```console
-shell$ wget https://github.com/ikwzm/FPGA-SoC-Debian12/archive/refs/tags/v0.1.0.tar.gz
-shell$ tar xfz v0.1.0.tar.gz
-shell$ cd FPGA-SoC-Debian12-v0.1.0
+shell$ wget https://github.com/ikwzm/FPGA-SoC-Debian12/archive/refs/tags/v1.0.0.tar.gz
+shell$ tar xfz v1.0.0.tar.gz
+shell$ cd FPGA-SoC-Debian12-v1.0.0
 ```
 
 #### File Description
