@@ -8,6 +8,13 @@ Overview
 
 This Repository provides a Linux Boot Image(U-boot, Kernel, Debian12-Root-Fs) for FPGA-SoC.
 
+### Note
+
+**The Linux Kernel Image and Debian12 RootFS provided in this repository is not official.**
+
+**I modified it to my liking. Please handle with care.**
+
+
 ### Features
 
 * Hardware
