@@ -2,7 +2,7 @@
 
 #### Prepare Linux Kernel Image Debian Package
 
-[./doc/build/linux-kernel-6.1.33.md](linux-kernel-6.1.33.md)
+[./doc/build/linux-kernel-6.1.42.md](linux-kernel-6.1.42.md)
 
 #### Setup parameters 
 
@@ -21,7 +21,7 @@ shell$ sudo debootstrap --arch=armhf --foreign $distro                          
 shell$ sudo cp /usr/bin/qemu-arm-static                                           $PWD/$targetdir/usr/bin
 shell$ sudo cp /etc/resolv.conf                                                   $PWD/$targetdir/etc
 shell$ sudo cp scripts/build-debian12-rootfs-with-qemu.sh                         $PWD/$targetdir
-shell$ sudo cp debian/linux-image-6.1.33-armv7-fpga_6.1.33-armv7-fpga-1_armhf.deb $PWD/$targetdir
+shell$ sudo cp debian/linux-image-6.1.42-armv7-fpga_6.1.42-armv7-fpga-1_armhf.deb $PWD/$targetdir
 ```
 
 If you get an error like the following, debootstrap does not yet support bookworm in your environment.
@@ -215,7 +215,7 @@ debian12-rootfs# apt install -y haveged
 
 ```console
 debian12-rootfs# mkdir /mnt/boot
-debian12-rootfs# dpkg -i linux-image-6.1.33-armv7-fpga_6.1.33-armv7-fpga-1_armhf.deb
+debian12-rootfs# dpkg -i linux-image-6.1.42-armv7-fpga_6.1.42-armv7-fpga-1_armhf.deb
 ```
 
 ##### Clean APT Cache
@@ -236,7 +236,7 @@ debian12-rootfs# dpkg -l > dpkg-list.txt
 debian12-rootfs# exit
 shell$ sudo rm -f  $PWD/$targetdir/usr/bin/qemu-arm-static
 shell$ sudo rm -f  $PWD/$targetdir/build-debian12-rootfs-with-qemu.sh
-shell$ sudo rm -f  $PWD/$targetdir/linux-image-6.1.33-armv7-fpga_6.1.33-armv7-fpga-1_armhf.deb
+shell$ sudo rm -f  $PWD/$targetdir/linux-image-6.1.42-armv7-fpga_6.1.42-armv7-fpga-1_armhf.deb
 shell$ sudo mv     $PWD/$targetdir/dpkg-list.txt files/debian12-dpkg-list.txt
 ```
 
