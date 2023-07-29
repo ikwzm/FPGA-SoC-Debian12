@@ -179,11 +179,11 @@ Note, selecting 'dtbocfg-6.1.42-armv7-fpga' instead of './dtbocfg-6.1.42-armv7-f
 The following NEW packages will be installed:
   dtbocfg-6.1.42-armv7-fpga
 0 upgraded, 1 newly installed, 0 to remove and 0 not upgraded.
-Need to get 0 B/5176 B of archives.
+Need to get 0 B/5180 B of archives.
 After this operation, 25.6 kB of additional disk space will be used.
-Get:1 /home/fpga/debian/dtbocfg-6.1.42-armv7-fpga_0.0.9-1_armhf.deb dtbocfg-6.1.42-armv7-fpga armhf 0.0.9-1 [5176 B]
+Get:1 /home/fpga/debian/dtbocfg-6.1.42-armv7-fpga_0.0.9-1_armhf.deb dtbocfg-6.1.42-armv7-fpga armhf 0.0.9-1 [5180 B]
 Selecting previously unselected package dtbocfg-6.1.42-armv7-fpga.
-(Reading database ... 43355 files and directories currently installed.)
+(Reading database ... 45128 files and directories currently installed.)
 Preparing to unpack .../dtbocfg-6.1.42-armv7-fpga_0.0.9-1_armhf.deb ...
 Unpacking dtbocfg-6.1.42-armv7-fpga (0.0.9-1) ...
 Setting up dtbocfg-6.1.42-armv7-fpga (0.0.9-1) ...
@@ -201,11 +201,11 @@ Note, selecting 'fclkcfg-6.1.42-armv7-fpga' instead of './fclkcfg-6.1.42-armv7-f
 The following NEW packages will be installed:
   fclkcfg-6.1.42-armv7-fpga
 0 upgraded, 1 newly installed, 0 to remove and 0 not upgraded.
-Need to get 0 B/9568 B of archives.
+Need to get 0 B/9576 B of archives.
 After this operation, 41.0 kB of additional disk space will be used.
-Get:1 /home/fpga/debian/fclkcfg-6.1.42-armv7-fpga_1.7.3-1_armhf.deb fclkcfg-6.1.42-armv7-fpga armhf 1.7.3-1 [9568 B]
+Get:1 /home/fpga/debian/fclkcfg-6.1.42-armv7-fpga_1.7.3-1_armhf.deb fclkcfg-6.1.42-armv7-fpga armhf 1.7.3-1 [9576 B]
 Selecting previously unselected package fclkcfg-6.1.42-armv7-fpga.
-(Reading database ... 43395 files and directories currently installed.)
+(Reading database ... 45134 files and directories currently installed.)
 Preparing to unpack .../fclkcfg-6.1.42-armv7-fpga_1.7.3-1_armhf.deb ...
 Unpacking fclkcfg-6.1.42-armv7-fpga (1.7.3-1) ...
 Setting up fclkcfg-6.1.42-armv7-fpga (1.7.3-1) ...
@@ -223,11 +223,11 @@ Note, selecting 'u-dma-buf-6.1.42-armv7-fpga' instead of './u-dma-buf-6.1.42-arm
 The following NEW packages will be installed:
   u-dma-buf-6.1.42-armv7-fpga
 0 upgraded, 1 newly installed, 0 to remove and 0 not upgraded.
-Need to get 0 B/16.3 kB of archives.
-After this operation, 67.6 kB of additional disk space will be used.
-Get:1 /home/fpga/debian/u-dma-buf-6.1.42-armv7-fpga_4.5.0-0_armhf.deb u-dma-buf-6.1.42-armv7-fpga armhf 4.5.0-0 [16.3 kB]
+Need to get 0 B/16.4 kB of archives.
+After this operation, 68.6 kB of additional disk space will be used.
+Get:1 /home/fpga/debian/u-dma-buf-6.1.42-armv7-fpga_4.5.0-0_armhf.deb u-dma-buf-6.1.42-armv7-fpga armhf 4.5.0-0 [16.4 kB]
 Selecting previously unselected package u-dma-buf-6.1.42-armv7-fpga.
-(Reading database ... 43400 files and directories currently installed.)
+(Reading database ... 45139 files and directories currently installed.)
 Preparing to unpack .../u-dma-buf-6.1.42-armv7-fpga_4.5.0-0_armhf.deb ...
 Unpacking u-dma-buf-6.1.42-armv7-fpga (4.5.0-0) ...
 Setting up u-dma-buf-6.1.42-armv7-fpga (4.5.0-0) ...
@@ -247,11 +247,11 @@ Note, selecting 'zynq-afi-6.1.42-armv7-fpga' instead of './zynq-afi-6.1.42-armv7
 The following NEW packages will be installed:
   zynq-afi-6.1.42-armv7-fpga
 0 upgraded, 1 newly installed, 0 to remove and 0 not upgraded.
-Need to get 0 B/3872 B of archives.
+Need to get 0 B/3864 B of archives.
 After this operation, 24.6 kB of additional disk space will be used.
-Get:1 /home/fpga/debian/zynq-afi-6.1.42-armv7-fpga_0.0.1-0_armhf.deb zynq-afi-6.1.42-armv7-fpga armhf 0.0.1-0 [3872 B]
+Get:1 /home/fpga/debian/zynq-afi-6.1.42-armv7-fpga_0.0.1-0_armhf.deb zynq-afi-6.1.42-armv7-fpga armhf 0.0.1-0 [3864 B]
 Selecting previously unselected package zynq-afi-6.1.42-armv7-fpga.
-(Reading database ... 43406 files and directories currently installed.)
+(Reading database ... 45145 files and directories currently installed.)
 Preparing to unpack .../zynq-afi-6.1.42-armv7-fpga_0.0.1-0_armhf.deb ...
 Unpacking zynq-afi-6.1.42-armv7-fpga (0.0.1-0) ...
 Setting up zynq-afi-6.1.42-armv7-fpga (0.0.1-0) ...
@@ -261,7 +261,7 @@ Setting up zynq-afi-6.1.42-armv7-fpga (0.0.1-0) ...
 
 ```console
 fpga@debian-fpga:~$ cd /home/fpga/debian
-fpga@debian-fpga:~/debian$ udo apt install ./dtbocfg-ctrl_0.0.5-1_all.deb
+fpga@debian-fpga:~/debian$ sudo apt install ./dtbocfg-ctrl_0.0.5-1_all.deb
 Reading package lists... Done
 Building dependency tree... Done
 Reading state information... Done
@@ -273,16 +273,14 @@ Need to get 0 B/4660 B of archives.
 After this operation, 24.6 kB of additional disk space will be used.
 Get:1 /home/fpga/debian/dtbocfg-ctrl_0.0.5-1_all.deb dtbocfg-ctrl all 0.0.5-1 [4660 B]
 Selecting previously unselected package dtbocfg-ctrl.
-(Reading database ... 43412 files and directories currently installed.)
+(Reading database ... 45151 files and directories currently installed.)
 Preparing to unpack .../dtbocfg-ctrl_0.0.5-1_all.deb ...
 Unpacking dtbocfg-ctrl (0.0.5-1) ...
 Setting up dtbocfg-ctrl (0.0.5-1) ...
 Created symlink /etc/systemd/system/multi-user.target.wants/device-tree-overlay.service → /etc/systemd/system/device-tree-overlay.service.
-[ 2748.759304] systemd-fstab-generator[6284]: Mount point  is not a valid path, ignoring.
-[ 2748.832314] systemd-fstab-generator[6284]: Mount point  is not a valid path, ignoring.
-[ 2750.346034] dtbocfg: loading out-of-tree module taints kernel.
-[ 2750.352705] dtbocfg_module_init
-[ 2750.355953] dtbocfg_module_init: OK
+[ 1280.927717] dtbocfg: loading out-of-tree module taints kernel.
+[ 1280.934382] dtbocfg_module_init
+[ 1280.938600] dtbocfg_module_init: OK
 ```
 
 #### Check Installed Device Drivers and Services Package
