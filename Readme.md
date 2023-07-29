@@ -29,7 +29,7 @@ This Repository provides a Linux Boot Image(U-boot, Kernel, Debian12-Root-Fs) fo
   + Customized boot by uEnv.txt
   + Customized boot by boot.scr
   + Enable bootmenu
-* Linux Kernel Version v6.1.33
+* Linux Kernel Version v6.1.xx
   + Available in both Xilinx-Zynq-7000 and Altera-SoC in a single image
   + Enable Device Tree Overlay
   + Enable FPGA Manager
@@ -53,9 +53,10 @@ Release
 
 | Release | Released   | Debian Version | Linux Kernel Version  | Release Tag |
 |:--------|:-----------|:---------------|:----------------------|:------------|
+| v1.1.0  | 2023-7-29  | Debian 12.1    | 6.1.42-armv7-fpga-1   | [v1.1.0](https://github.com/ikwzm/FPGA-SoC-Debian12/tree/v1.1.0)
 | v1.0.0  | 2023-6-15  | Debian 12.0    | 6.1.33-armv7-fpga-1   | [v1.0.0](https://github.com/ikwzm/FPGA-SoC-Debian12/tree/v1.0.0)
 
-Install
+Install (v1.1.0)
 ------------------------------------------------------------------------------------
 
 * Install U-Boot and Linux to SD-Card
@@ -74,6 +75,6 @@ Build
 * [Build U-boot for PYNQ-Z1](doc/build/u-boot-zynq-pynqz1.md)
 * [Build U-boot for DE0-Nano-SoC](doc/build/u-boot-de0-nano-soc.md)
 * [Build U-boot for DE10-Nano](doc/build/u-boot-de10-nano.md)
-* [Build Linux Kernel](doc/build/linux-kernel-6.1.33.md)
-* [Build Debian12 RootFS](doc/build/debian12-rootfs.md)
+* [Build Linux Kernel 6.1.42](https://github.com/ikwzm/FPGA-SoC-Debian12/blob/v1.1.0/doc/build/linux-kernel-6.1.42.md)
+* [Build Debian12 RootFS](https://github.com/ikwzm/FPGA-SoC-Debian12/blob/v1.1.0/doc/build/debian12-rootfs.md)
 
