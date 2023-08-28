@@ -67,6 +67,11 @@ Install (v1.1.0)
   + [DE10-Nano](doc/install/de10-nano.md)
 * [Install Device Drivers and Services](doc/install/device-drivers.md)
 
+FAQ
+------------------------------------------------------------------------------------
+
+* [Upgrade to Linux Kernel 6.1.47](doc/faq/upgrade-linux-kernel-6.1.47.md)
+
 Build 
 ------------------------------------------------------------------------------------
 
