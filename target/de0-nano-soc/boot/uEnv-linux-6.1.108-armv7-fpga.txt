@@ -1,6 +1,6 @@
 ########################################################################
 #uenv: config_name   = socfpga_de0_nano_soc
-#uenv: menu_title    = Boot linux-6.1.70-armv7-fpga
+#uenv: menu_title    = Boot linux-6.1.108-armv7-fpga
 #uenv: menu_priority = -1
 ########################################################################
 
@@ -9,5 +9,5 @@
 #  * linux_kernel_image : Linux Kernel Image File Name
 #  * linux_fdt_image    : Linux Device Tree Blob File Name
 ########################################################################
-linux_kernel_image=vmlinuz-6.1.70-armv7-fpga
-linux_fdt_image=devicetree-6.1.70-armv7-fpga-socfpga.dtb
+linux_kernel_image=vmlinuz-6.1.108-armv7-fpga
+linux_fdt_image=devicetree-6.1.108-armv7-fpga-socfpga.dtb
