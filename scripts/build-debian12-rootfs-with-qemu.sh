@@ -113,7 +113,7 @@ apt install -y haveged
 ### Install Linux Modules
 
 mkdir /mnt/boot
-dpkg -i linux-image-6.1.70-armv7-fpga_6.1.70-armv7-fpga-1_armhf.deb
+dpkg -i linux-image-6.1.108-armv7-fpga_6.1.108-armv7-fpga-1_armhf.deb
 
 ### Clean Cache
 
