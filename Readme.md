@@ -53,11 +53,12 @@ Release
 
 | Release | Released   | Debian Version | Linux Kernel Version  | Release Tag |
 |:--------|:-----------|:---------------|:----------------------|:------------|
+| v7.0.0  | 2024-9-17  | Debian 12.7    | 6.1.108-armv7-fpga-1  | [v7.0.0](https://github.com/ikwzm/FPGA-SoC-Debian12/tree/v7.0.0)
 | v4.0.0  | 2024-1-7   | Debian 12.4    | 6.1.70-armv7-fpga-1   | [v4.0.0](https://github.com/ikwzm/FPGA-SoC-Debian12/tree/v4.0.0)
 | v1.1.0  | 2023-7-29  | Debian 12.1    | 6.1.42-armv7-fpga-1   | [v1.1.0](https://github.com/ikwzm/FPGA-SoC-Debian12/tree/v1.1.0)
 | v1.0.0  | 2023-6-15  | Debian 12.0    | 6.1.33-armv7-fpga-1   | [v1.0.0](https://github.com/ikwzm/FPGA-SoC-Debian12/tree/v1.0.0)
 
-Install (v4.0.0)
+Install (v7.0.0)
 ------------------------------------------------------------------------------------
 
 * Install U-Boot and Linux to SD-Card
@@ -71,7 +72,7 @@ Install (v4.0.0)
 FAQ
 ------------------------------------------------------------------------------------
 
-* [Upgrade to Linux Kernel 6.1.70](doc/faq/upgrade-linux-kernel-6.1.70.md)
+* [Upgrade to Linux Kernel 6.1.108](doc/faq/upgrade-linux-kernel-6.1.108.md)
 
 Build 
 ------------------------------------------------------------------------------------
@@ -81,6 +82,6 @@ Build
 * [Build U-boot for PYNQ-Z1](doc/build/u-boot-zynq-pynqz1.md)
 * [Build U-boot for DE0-Nano-SoC](doc/build/u-boot-de0-nano-soc.md)
 * [Build U-boot for DE10-Nano](doc/build/u-boot-de10-nano.md)
-* [Build Linux Kernel 6.1.70](https://github.com/ikwzm/FPGA-SoC-Debian12/blob/v4.0.0/doc/build/linux-kernel-6.1.70.md)
+* [Build Linux Kernel 6.1.108](https://github.com/ikwzm/FPGA-SoC-Debian12/blob/v4.0.0/doc/build/linux-kernel-6.1.108.md)
 * [Build Debian12 RootFS](https://github.com/ikwzm/FPGA-SoC-Debian12/blob/v4.0.0/doc/build/debian12-rootfs.md)
 

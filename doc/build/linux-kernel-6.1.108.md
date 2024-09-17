@@ -1,17 +1,17 @@
-### Build Linux Kernel 6.1.70-armv7-fpga
+### Build Linux Kernel 6.1.108-armv7-fpga
 
 ### Download FPGA-SoC-Linux-Kernel-6.1
 
 ```console
-shell$ wget https://github.com/ikwzm/FPGA-SoC-Linux-Kernel-6.1/archive/refs/tags/6.1.70-armv7-fpga-1.tar.gz
-shell$ tar xfz 6.1.70-armv7-fpga-1.tar.gz
+shell$ wget https://github.com/ikwzm/FPGA-SoC-Linux-Kernel-6.1/archive/refs/tags/6.1.108-armv7-fpga-1.tar.gz
+shell$ tar xfz 6.1.108-armv7-fpga-1.tar.gz
 ```
 
 ### Setup parameters
 
 ```console
-shell$ export LINUX_KERNEL_REPOSITORY=FPGA-SoC-Linux-Kernel-6.1-6.1.70-armv7-fpga-1
-shell$ export LINUX_KERNEL_VERSION=6.1.70
+shell$ export LINUX_KERNEL_REPOSITORY=FPGA-SoC-Linux-Kernel-6.1-6.1.108-armv7-fpga-1
+shell$ export LINUX_KERNEL_VERSION=6.1.108
 shell$ export LINUX_KERNEL_RELEASE=$LINUX_KERNEL_VERSION-armv7-fpga
 ```
 
@@ -45,7 +45,7 @@ shell$ dtc -I dtb -O dts -@ -o $TARGET_DTS $TARGET_DTB
 or
 
 ```console
-shell$ bash $LINUX_KERNEL_REPOSITORY/scripts/install-linux-6.1.70-armv7-fpga.sh -d target/zynq-zybo/boot -T -U -v zybo
+shell$ bash $LINUX_KERNEL_REPOSITORY/scripts/install-linux-6.1.108-armv7-fpga.sh -d target/zynq-zybo/boot -T -U -v zybo
 ```
 
 ### Copy devicetree to tareget/zybo-zynq-z7/boot/
@@ -63,7 +63,7 @@ shell$ dtc -I dtb -O dts -@ -o $TARGET_DTS $TARGET_DTB
 or
 
 ```console
-shell$ bash $LINUX_KERNEL_REPOSITORY/scripts/install-linux-6.1.70-armv7-fpga.sh -d target/zynq-zybo-z7/boot -T -U -v zybo-z7
+shell$ bash $LINUX_KERNEL_REPOSITORY/scripts/install-linux-6.1.108-armv7-fpga.sh -d target/zynq-zybo-z7/boot -T -U -v zybo-z7
 ```
 
 ### Copy devicetree to target/zybo-pynqz1/boot/
@@ -81,7 +81,7 @@ shell$ dtc -I dtb -O dts -@ -o $TARGET_DTS $TARGET_DTB
 or
 
 ```console
-shell$ bash $LINUX_KERNEL_REPOSITORY/scripts/install-linux-6.1.70-armv7-fpga.sh -d target/zynq-pynqz1/boot -T -U -v pynq-z1
+shell$ bash $LINUX_KERNEL_REPOSITORY/scripts/install-linux-6.1.108-armv7-fpga.sh -d target/zynq-pynqz1/boot -T -U -v pynq-z1
 ```
 
 ### Copy devicetree to target/de0-nano-soc/boot/
@@ -99,7 +99,7 @@ shell$ dtc -I dtb -O dts -@ -o $TARGET_DTS $TARGET_DTB
 or
 
 ```console
-shell$ bash $LINUX_KERNEL_REPOSITORY/scripts/install-linux-6.1.70-armv7-fpga.sh -d target/de0-nano-soc/boot -T -U -v de0-nano-soc
+shell$ bash $LINUX_KERNEL_REPOSITORY/scripts/install-linux-6.1.108-armv7-fpga.sh -d target/de0-nano-soc/boot -T -U -v de0-nano-soc
 ```
 
 ### Copy devicetree to tareget/de10-nano/boot/
@@ -117,6 +117,6 @@ shell$ dtc -I dtb -O dts -@ -o $TARGET_DTS $TARGET_DTB
 or
 
 ```console
-shell$ bash $LINUX_KERNEL_REPOSITORY/scripts/install-linux-6.1.70-armv7-fpga.sh -d target/de10-nano/boot -T -U -v de10-nano
+shell$ bash $LINUX_KERNEL_REPOSITORY/scripts/install-linux-6.1.108-armv7-fpga.sh -d target/de10-nano/boot -T -U -v de10-nano
 ```
 
